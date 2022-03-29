@@ -1,5 +1,7 @@
 # By default buid using debug symbols :
 BUILD_DEBUG := yes
 
-start:
+.PHONY=all
+
+all:
 	@echo $(BUILD_DEBUG)

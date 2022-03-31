@@ -1,5 +1,5 @@
-## Explained :
-#### 1) Automatic Variables :
+# Explained :
+### 1) Automatic Variables :
 
 **Here is explanation for each Automatic Variable :**
 

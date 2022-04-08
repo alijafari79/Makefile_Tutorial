@@ -5,7 +5,8 @@ make
 
 #### Output :
 
-``In foo
+``
+In foo
 In baz
 In bar
 In all
@@ -20,4 +21,5 @@ is
 global scope
 local scope
 local scope
-global scope``
+global scope
+``

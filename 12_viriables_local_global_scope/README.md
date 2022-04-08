@@ -5,21 +5,9 @@ make
 
 #### Output :
 
-``
-In foo
-In baz
-In bar
-In all
-VAR
-VAR
-VAR
-VAR
-is
-is
-is
-is
-global scope
-local scope
-local scope
-global scope
-``
+```
+In foo VAR is global scope
+In baz VAR is local scope
+In bar VAR is local scope
+In all VAR is global scope
+```

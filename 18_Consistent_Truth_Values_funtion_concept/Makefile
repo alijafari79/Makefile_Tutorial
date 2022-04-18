@@ -5,9 +5,11 @@
 
 # make-truth = $(if $1, T, F)
 # or :
-# make-truth = $(if $1, T)
+# make-truth = $(if $1, T,)
+# or : 
+# # make-truth = $(if $1, T)
 
-make-truth = $(if $1, T, F)
+make-truth = $(if $1, T,)
 
 
 # Call the function above using $(call) :

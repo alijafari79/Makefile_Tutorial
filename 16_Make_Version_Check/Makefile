@@ -5,4 +5,7 @@
 need := 3.80
 ok := $(filter $(need),$(firstword $(sort $(MAKE_VERSION) $(need))))
 
-all: ; @echo $(ok)
+all: 
+	ifeq ($(ok),)
+		echo "ERROR : Not an appropriate Version
+	endif

@@ -20,6 +20,20 @@ $(info ifdef->Is Empty)
 endif
 ######################################
 
+
+# GNU make 3.81 or higher :
+########################################
+# Expandable ifdef argument ############
+# Also can use $(EMPTY) instead of EMPTY
+#############\\ IFDEF //################
+
+ifdef $(EMPTY)
+$(info ifdef->Is Full)
+else
+$(info ifdef->Is Empty)
+endif
+
+
 ############\\ IF //##################
 
 all: empty full
@@ -33,3 +47,6 @@ full:
 	$(if $(FULL), @echo "Is Full", @echo "Is Empty")
 
 ######################################
+
+
+

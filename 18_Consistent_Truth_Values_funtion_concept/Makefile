@@ -11,6 +11,7 @@ make-truth = $(if $1, T, F)
 
 
 # Call the function above using $(call) :
+$(info $(call make-truth, )) # Space as input
 $(info $(call make-truth,))
 $(info $(call make-truth,true))
 $(info $(call make-truth,a b c))
